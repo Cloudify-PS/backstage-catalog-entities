@@ -1,0 +1,17 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: def_tenenat_cat_info
+  description: Cloudify blueprint
+  tags:
+    - tosca
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
+  system: artist-engagement-portal
