@@ -3,7 +3,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: EC2_WITH_EBS
-  description: Cloudify blueprint
+  description: The blueprint generates SSH public and private keys and stores them in secret store. The public key is used to create Keypair that is attached to the created EC2 instance. In case the SSH key already exists in the secret store they will be used. The blueprint creates VPC, Subnet, Internet Gateway, Security Group, Route Table and EBS. The EC2 instance is created inside the VPC and the EBS is attached to it.
+
   tags:
     - tosca
   links:

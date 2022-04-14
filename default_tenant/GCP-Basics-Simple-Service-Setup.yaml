@@ -3,7 +3,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: GCP-Basics-Simple-Service-Setup
-  description: Cloudify blueprint
+  description: This blueprint installs an application using Cloudify on GCP.
+
   tags:
     - tosca
   links:

@@ -3,7 +3,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Terraform_Azure_VM
-  description: Cloudify blueprint
+  description: This blueprint creates infrastructure on Azure using Terraform.
+
   tags:
     - tosca
   links:

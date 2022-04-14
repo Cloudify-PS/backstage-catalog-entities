@@ -3,7 +3,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: EC2
-  description: Cloudify blueprint
+  description: The blueprint generates SSH public and private keys and stores them in secret store. The public key is used to create Keypair that is attached to the created EC2 instance. In case case the SSH key already exists in the secret store they will be used.
+
   tags:
     - tosca
   links:
