@@ -7,7 +7,7 @@ metadata:
   tags:
     - tosca
   links:
-    - url: http://127.0.0.1/console/page/blueprints_blueprint/stl?c=%5B%7B%22context%22%3A%7B%7D%7D%2C%7B%22context%22%3A%7B%22blueprintId%22%3A%22stl%22%7D%2C%22pageName%22%3A%22ec2asdfgg%22%7D%5D#!
+    - url: http://127.0.0.1/console/page/blueprints_blueprint/stl?c=%5B%7B%22context%22%3A%7B%7D%7D%2C%7B%22context%22%3A%7B%22blueprintId%22%3A%22stl%22%7D%2C%22pageName%22%3A%22stl%22%7D%5D#!
       title: Blueprint
       icon: user
 spec:
