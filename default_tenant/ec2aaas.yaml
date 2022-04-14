@@ -2,12 +2,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ec2df
+  name: ec2aaas
   description: Cloudify blueprint
   tags:
     - tosca
   links:
-    - url: http://127.0.0.1/console/page/blueprints_blueprint/ec2df?c=%5B%7B%22context%22%3A%7B%7D%7D%2C%7B%22context%22%3A%7B%22blueprintId%22%3A%22ec2df%22%7D%2C%22pageName%22%3A%22ec2asdfgg%22%7D%5D#!
+    - url: http://127.0.0.1/console/page/blueprints_blueprint/ec2aaas?c=%5B%7B%22context%22%3A%7B%7D%7D%2C%7B%22context%22%3A%7B%22blueprintId%22%3A%22ec2aaas%22%7D%2C%22pageName%22%3A%22ec2asdfgg%22%7D%5D#!
       title: Blueprint
       icon: user
 spec:
