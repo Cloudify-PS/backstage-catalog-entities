@@ -1,0 +1,16 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bs1
+  description: Cloudify blueprint
+  tags:
+    - tosca
+  links:
+    - url: http://127.0.0.1/console/page/blueprints_blueprint/bs1?c=%5B%7B%22context%22%3A%7B%7D%7D%2C%7B%22context%22%3A%7B%22blueprintId%22%3A%22bs1%22%7D%2C%22pageName%22%3A%22bs1%22%7D%5D#!
+      title: Blueprint
+      icon: user
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
