@@ -3,8 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage_vm
-  description: The blueprint creates a EC2 instance with public IP and all necessary network resources on AWS.
-
+  description: Cloudify blueprint
   tags:
     - tosca
   links:
